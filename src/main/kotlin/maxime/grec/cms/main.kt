@@ -70,6 +70,26 @@ fun main() {
                 controller.start()
             }
 
+            //LIST ALL TODAY
+
+            get("/today") {
+                val controller = appComponents.getArticleListPresenter(object: ArticleListPresenter.View {
+                    override fun dispalyArticleList( list: List<Article>) {
+                        val authUser = call.sessions.get<AuthSession>()
+                        var auth = false;
+                        if (authUser != null) {
+                            auth = true
+                        }
+
+                        val context = IndexContext(list, auth)
+                        launch {
+                            call.respond(FreeMarkerContent("index.ftl", context, "e"))
+                        }
+                    }
+                })
+                controller.start()
+            }
+
             //SINGLE
 
             get("article/{id}") {

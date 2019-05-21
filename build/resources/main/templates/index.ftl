@@ -19,7 +19,7 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">${article.title}</h5>
-                        <p class="card-text">${article.text}</p>
+                        <p class="card-text">${article.text?substring(0,100)} ...</p>
                         <a href="/article/${article.id}" class="btn btn-primary">Lire plus</a>
                         <#if auth >
                             <a href="/article/${article.id}/delete" class="btn btn-danger">Supprimer</a>

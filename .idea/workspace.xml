@@ -2,102 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9512bc-06d6-473e-9ebe-30890edd2c25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/tpl/ArticleContext.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/tpl/LoginContext.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$2$controller$1$dispalyArticleList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$2$controller$1$dispalyArticleList$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$2$controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$2$controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$3$controller$1$displayArticle$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$3$controller$1$displayArticle$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$3$controller$1$displayNotFound$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$3$controller$1$displayNotFound$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$3$controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$3$controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$4$controller$1$error$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$4$controller$1$error$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$4$controller$1$success$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$4$controller$1$success$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$4$controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$4$controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$7$controller$1$error$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$7$controller$1$error$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$7$controller$1$success$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$7$controller$1$success$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$7$controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$7$controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/tpl/Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/article.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/article.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/base.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/base.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$3$controller$1$displayArticle$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$3$controller$1$displayNotFound$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$4$controller$1$error$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$4$controller$1$success$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$7$controller$1$error$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$7$controller$1$success$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/maxime/grec/cms/MainKt$main$1$3$7$controller$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/tpl/Article.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/article.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/article.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/base.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/base.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -138,37 +52,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/tpl/ArticleContext.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/model/Article.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="305">
+              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+              <folding>
+                <element signature="e#197#241#0#HTML" expanded="true" />
+                <element signature="e#1080#1124#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,6 +80,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>georges.quentin</find>
+      <find>getArticleList</find>
     </findStrings>
     <replaceStrings>
       <replace>maxime.grec</replace>
@@ -232,11 +124,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.ftl" />
         <option value="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/tpl/loginContext.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/base.ftl" />
         <option value="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/tpl/Article.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/tpl/LoginContext.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/tpl/ArticleContext.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/main.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/base.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/article.ftl" />
       </list>
     </option>
@@ -410,12 +302,12 @@
       <workItem from="1558432372994" duration="426000" />
       <workItem from="1558439514427" duration="904000" />
       <workItem from="1558442213055" duration="7000" />
-      <workItem from="1558442411433" duration="16326000" />
+      <workItem from="1558442411433" duration="17601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42717000" />
+    <option name="totallyTimeSpent" value="43992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,16 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/control/ArticleListPresenterImpl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#33#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/model/Comment.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -673,23 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/MysqlModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <element signature="e#25#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/control/ArticlePresenterImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -704,16 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/base.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-          <folding>
-            <element signature="e#1342#1369#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,17 +607,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/base.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="139">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/control/ArticleListPresenterImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#33#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/MysqlModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#25#134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="223">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+          <folding>
+            <element signature="e#25#991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <folding>
+            <element signature="e#197#241#0#HTML" expanded="true" />
+            <element signature="e#1080#1124#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
