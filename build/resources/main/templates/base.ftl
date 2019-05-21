@@ -11,6 +11,9 @@
 <#macro page_list_comment>
 </#macro>
 
+<#macro page_login_form>
+</#macro>
+
 <#macro display_page>
     <!doctype html>
     <html>
@@ -27,21 +30,27 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">Tout <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Aujourd'hui</a>
-                <a class="nav-item nav-link" href="#">Semaine dernière</a>
+                <a class="nav-item nav-link" href="/all">Tout <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="/today">Aujourd'hui</a>
+                <a class="nav-item nav-link" href="/last-week">Semaine dernière</a>
             </div>
         </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li style="padding-right: 10px"><a href="/admin">Administration</a></li>
+            <#if auth >
+                <li><a href="/logout">logout</a></li>
+            </#if>
+        </ul>
     </nav>
     <body>
     <div style="padding-top: 50px" class="container">
         <@page_body/>
     </div>
+    <@page_comment/>
 
+    <@page_list_comment/>
+    <@page_login_form/>
 
-        <@page_comment/>
-
-        <@page_list_comment/>
     </body>
     </html>
 </#macro>

@@ -3,6 +3,8 @@ package maxime.grec.cms
 import freemarker.cache.ClassTemplateLoader
 import maxime.grec.cms.model.Article
 import maxime.grec.cms.tpl.IndexContext
+import maxime.grec.cms.tpl.LoginContext
+import maxime.grec.cms.tpl.ArticleContext
 import io.ktor.application.call
 import io.ktor.application.install
 import io.ktor.freemarker.FreeMarker
@@ -81,7 +83,12 @@ fun main() {
                     override fun displayArticle(article: Article?) {
                         launch {
                             val authUser = call.sessions.get<AuthSession>()
-                            call.respond(FreeMarkerContent("article.ftl", article, "e"))
+                            var auth = false
+                            if (authUser != null) {
+                                auth = true
+                            }
+                            val context = ArticleContext(article, auth)
+                            call.respond(FreeMarkerContent("article.ftl", context, "e"))
                         }
                     }
                 })
@@ -120,14 +127,19 @@ fun main() {
 
             get("/admin") {
                 val authUser = call.sessions.get<AuthSession>()
+                var auth = false;
                 if (authUser != null) {
                     if (authUser.connected){
                         call.respondRedirect("/")
+                        auth = true;
                     }else{
-                        call.respond(FreeMarkerContent("login.ftl", null, "e"))
+                        auth = false;
+                        val context = LoginContext(auth)
+                        call.respond(FreeMarkerContent("login.ftl", context, "e"))
                     }
                 }
-                call.respond(FreeMarkerContent("login.ftl", null, "e"))
+                val context = LoginContext(auth)
+                call.respond(FreeMarkerContent("login.ftl", context, "e"))
 
             }
 

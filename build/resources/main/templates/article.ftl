@@ -4,13 +4,13 @@
 </#macro>
 
 <#macro page_body>
-    <h1>${title}</h1>
-    <p>${text}</p>
+    <h1>${article.title}</h1>
+    <p>${article.text}</p>
 </#macro>
 
 <#macro page_comment>
     <form action="/comment/add" method="post">
-        <input type="hidden" name="article_id" value="${id}">
+        <input type="hidden" name="article_id" value="${article.id}">
         <input type="text" name="username">
         <textarea name="text" rows="5" cols="50"></textarea>
         <button type="submit">Poster !</button>
@@ -19,7 +19,7 @@
 
 <#macro page_list_comment>
     <div>
-        <#list comment as single>
+        <#list article.comment as single>
             <div>
                 <ul>
                     <li>${single.username}</li>
