@@ -178,8 +178,9 @@ fun main() {
                 var auth = false
                 if (authUser != null) {
                     if (authUser.connected){
-                        call.respondRedirect("/")
                         auth = true
+                        val context = LoginContext(auth)
+                        call.respond(FreeMarkerContent("admin.ftl", context, "e"))
                     }else{
                         auth = false
                         val context = LoginContext(auth)
@@ -192,10 +193,10 @@ fun main() {
             }
 
             get("/logout") {
-                        call.sessions.clear<AuthSession>()
-                        call.respondRedirect("/")
+                call.sessions.clear<AuthSession>()
+                call.respondRedirect("/")
 
-                }
+            }
 
             post("/admin/auth") {
                 val requestBody = call.receiveParameters()
@@ -219,6 +220,31 @@ fun main() {
                 })
 
                 controller.login(email, password)
+            }
+
+            post("/admin/article/add") {
+                val requestBody = call.receiveParameters()
+                val title = requestBody["title"].toString()
+                val text = requestBody["text"].toString()
+
+                val controller = appComponents.getArticlePresenter(object: ArticlePresenter.View {
+                    override fun success() {
+                        launch {
+                            call.respondRedirect("/")
+                        }
+                    }
+
+                    override fun error() {
+                        launch {
+                            call.respondText("Something wrong happened")
+                        }
+                    }
+
+                    override fun displayArticle(article: Article?) {}
+                    override fun displayNotFound() {}
+                })
+
+                controller.createArticle(title, text)
             }
 
             get("/admin/article/{id}/delete") {

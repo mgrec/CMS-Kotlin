@@ -127,4 +127,16 @@ class MysqlModel(val pool: ConnectionPool) : Model {
         return false
     }
 
+    override fun createArticle(title: String, text: String): Boolean {
+        pool.useConnection { connection ->
+            connection.prepareStatement("INSERT INTO articles (title, text) VALUES (?, ?)").use { stmt ->
+                stmt.setString(1, title)
+                stmt.setString(2, text)
+                stmt.executeUpdate()
+                return true
+            }
+        }
+        return false
+    }
+
 }

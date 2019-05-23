@@ -6,7 +6,7 @@ interface ArticlePresenter {
 
     fun deleteArticle(idArticle: Int)
 
-    fun createArticle()
+    fun createArticle(title: String?, text: String?)
 
     fun start(id: Int)
 

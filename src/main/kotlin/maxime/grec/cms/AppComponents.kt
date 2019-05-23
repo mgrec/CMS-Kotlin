@@ -28,9 +28,6 @@ class AppComponents(val mySqlUrl: String, val mySqlUser: String, val mySqlPasswo
         return CommentControllerImpl(getModel(), view)
     }
 
-    fun deleteComment(view: CommentController.View): CommentController {
-        return CommentControllerImpl(getModel(), view)
-    }
 
     fun login(view: UserController.View): UserController{
         return UserControllerImpl(getModel(), view)

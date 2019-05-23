@@ -14,6 +14,9 @@
 <#macro page_login_form>
 </#macro>
 
+<#macro page_create_article>
+</#macro>
+
 <#macro display_page>
     <!doctype html>
     <html>
@@ -50,6 +53,8 @@
 
     <@page_list_comment/>
     <@page_login_form/>
+
+    <@page_create_article/>
 
     </body>
     </html>

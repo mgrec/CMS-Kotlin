@@ -19,4 +19,6 @@ interface Model {
 
     fun login(email: String, password: String): Boolean
 
+    fun createArticle(title: String, text: String): Boolean
+
 }
