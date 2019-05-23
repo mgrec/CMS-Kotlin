@@ -19,7 +19,11 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">${article.title}</h5>
-                        <p class="card-text">${article.text?substring(0,100)} ...</p>
+                        <#if article.text?length gt 100 >
+                            <p class="card-text">${article.text?substring(0,100)} ...</p>
+                        <#else>
+                             <p class="card-text">${article.text}</p>
+                        </#if>
                         <a href="/article/${article.id}" class="btn btn-primary">Lire plus</a>
                         <#if auth >
                             <a href="/admin/article/${article.id}/delete" class="btn btn-danger">Supprimer</a>
