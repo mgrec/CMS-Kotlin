@@ -33,6 +33,9 @@
             <div class="card" style="margin: 30px 0;">
                 <div class="card-header">
                     ${single.username}
+                    <#if auth >
+                        <a style="float: right" class="btn btn-danger" href="/admin/article/${article.id}/comment/${single.id}/delete">Supprimer</a>
+                    </#if>
                 </div>
                 <div class="card-body">
                     <blockquote class="blockquote mb-0">

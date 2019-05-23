@@ -13,6 +13,8 @@ interface Model {
 
     fun deleteArticle(articleId: Int): Boolean
 
+    fun deleteComment(commentId: Int): Boolean
+
     fun getCommentById(articleId: Int): List<Comment>
 
     fun login(email: String, password: String): Boolean

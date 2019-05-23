@@ -151,6 +151,28 @@ fun main() {
                 controller.createComment(id, username, text)
             }
 
+            get("/admin/article/{idArticle}/comment/{id}/delete") {
+
+                val id = call.parameters["id"]!!.toInt()
+                val idArticle = call.parameters["idArticle"]!!.toInt()
+
+                val controller = appComponents.createComment(object: CommentController.View {
+                    override fun error() {
+                        launch {
+                            call.respondText("Something wrong happened")
+                        }
+                    }
+
+                    override fun success() {
+                        launch {
+                            call.respondRedirect("/article/$idArticle")
+                        }
+                    }
+                })
+
+                controller.deleteComment(id)
+            }
+
             get("/admin") {
                 val authUser = call.sessions.get<AuthSession>()
                 var auth = false

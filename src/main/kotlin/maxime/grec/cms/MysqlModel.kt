@@ -44,7 +44,7 @@ class MysqlModel(val pool: ConnectionPool) : Model {
         val commentList = ArrayList<Comment>()
 
         pool.useConnection { connection ->
-            connection.prepareStatement("SELECT * FROM Commentaires WHERE Commentaires.article_id = ?").use { stmt ->
+            connection.prepareStatement("SELECT * FROM Commentaires WHERE Commentaires.article_id = ? ORDER BY Commentaires.date DESC").use { stmt ->
                 stmt.setInt(1, id)
                 stmt.executeQuery().use { result ->
                         while (result.next()) {
@@ -109,6 +109,17 @@ class MysqlModel(val pool: ConnectionPool) : Model {
         pool.useConnection { connection ->
             connection.prepareStatement("DELETE FROM articles WHERE id = ?").use { stmt ->
                 stmt.setInt(1, idArticle)
+                stmt.executeUpdate()
+                return true
+            }
+        }
+        return false
+    }
+
+    override fun deleteComment(commentId: Int): Boolean {
+        pool.useConnection { connection ->
+            connection.prepareStatement("DELETE FROM commentaires WHERE id = ?").use { stmt ->
+                stmt.setInt(1, commentId)
                 stmt.executeUpdate()
                 return true
             }
