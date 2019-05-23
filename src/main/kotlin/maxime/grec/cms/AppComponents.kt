@@ -20,7 +20,7 @@ class AppComponents(val mySqlUrl: String, val mySqlUser: String, val mySqlPasswo
         return ArticleListPresenterImpl(getModel(), view)
     }
 
-    fun getArticlePresenterr(view: ArticlePresenter.View): ArticlePresenter {
+    fun getArticlePresenter(view: ArticlePresenter.View): ArticlePresenter {
         return ArticlePresenterImpl(getModel(), view)
     }
 

@@ -11,6 +11,8 @@ interface Model {
 
     fun createComment(articleId: Int, username: String, text: String): Boolean
 
+    fun deleteArticle(articleId: Int): Boolean
+
     fun getCommentById(articleId: Int): List<Comment>
 
     fun login(email: String, password: String): Boolean

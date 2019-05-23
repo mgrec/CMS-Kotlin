@@ -60,10 +60,6 @@ class MysqlModel(val pool: ConnectionPool) : Model {
                 }
             }
         }
-
-        for (element in commentList) {
-            println(element.username)
-        }
         return commentList
     }
 
@@ -109,5 +105,15 @@ class MysqlModel(val pool: ConnectionPool) : Model {
         return false
     }
 
+    override fun deleteArticle(idArticle: Int): Boolean {
+        pool.useConnection { connection ->
+            connection.prepareStatement("DELETE FROM articles WHERE id = ?").use { stmt ->
+                stmt.setInt(1, idArticle)
+                stmt.executeUpdate()
+                return true
+            }
+        }
+        return false
+    }
 
 }

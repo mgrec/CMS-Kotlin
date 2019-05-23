@@ -19,4 +19,18 @@ class ArticlePresenterImpl(val model: Model, val view: ArticlePresenter.View): A
         }
 
     }
+
+    override fun deleteArticle(id: Int) {
+        val deleteStatus = model.deleteArticle(id)
+        if (deleteStatus) {
+            view.success()
+        } else {
+            view.error()
+        }
+
+    }
+
+    override fun createArticle() {
+
+    }
 }

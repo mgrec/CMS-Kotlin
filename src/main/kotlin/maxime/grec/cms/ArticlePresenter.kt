@@ -1,13 +1,18 @@
 package maxime.grec.cms
 
 import maxime.grec.cms.model.Article
-import maxime.grec.cms.model.AuthSession
 
 interface ArticlePresenter {
+
+    fun deleteArticle(idArticle: Int)
+
+    fun createArticle()
 
     fun start(id: Int)
 
     interface View {
+        fun success()
+        fun error()
         fun displayArticle(article: Article?)
         fun displayNotFound()
     }

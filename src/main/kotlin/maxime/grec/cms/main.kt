@@ -56,7 +56,7 @@ fun main() {
                 val controller = appComponents.getArticleListPresenter(object: ArticleListPresenter.View {
                     override fun dispalyArticleList( list: List<Article>) {
                         val authUser = call.sessions.get<AuthSession>()
-                        var auth = false;
+                        var auth = false
                         if (authUser != null) {
                             auth = true
                         }
@@ -76,7 +76,7 @@ fun main() {
                 val controller = appComponents.getArticleListPresenter(object: ArticleListPresenter.View {
                     override fun dispalyArticleList( list: List<Article>) {
                         val authUser = call.sessions.get<AuthSession>()
-                        var auth = false;
+                        var auth = false
                         if (authUser != null) {
                             auth = true
                         }
@@ -93,7 +93,13 @@ fun main() {
             //SINGLE
 
             get("article/{id}") {
-                val controller = appComponents.getArticlePresenterr(object: ArticlePresenter.View {
+                val controller = appComponents.getArticlePresenter(object: ArticlePresenter.View {
+                    override fun success() {
+                    }
+
+                    override fun error() {
+                    }
+
                     override fun displayNotFound() {
                         launch {
                             call.respond(HttpStatusCode.NotFound)
@@ -147,13 +153,13 @@ fun main() {
 
             get("/admin") {
                 val authUser = call.sessions.get<AuthSession>()
-                var auth = false;
+                var auth = false
                 if (authUser != null) {
                     if (authUser.connected){
                         call.respondRedirect("/")
-                        auth = true;
+                        auth = true
                     }else{
-                        auth = false;
+                        auth = false
                         val context = LoginContext(auth)
                         call.respond(FreeMarkerContent("login.ftl", context, "e"))
                     }
@@ -178,7 +184,6 @@ fun main() {
                     override fun error() {
                         launch {
                             call.sessions.clear<AuthSession>()
-                            print("pas OK")
                         }
                     }
 
@@ -192,6 +197,32 @@ fun main() {
                 })
 
                 controller.login(email, password)
+            }
+
+            get("/admin/article/{id}/delete") {
+                val controller = appComponents.getArticlePresenter(object: ArticlePresenter.View {
+                    override fun displayNotFound() {
+                    }
+
+                    override fun displayArticle(article: Article?) {
+                    }
+
+                    override fun success() {
+                        launch {
+                            call.respondRedirect("/")
+                        }
+                    }
+
+                    override fun error() {
+                        launch {
+                            call.respondText("Something wrong happened")
+                        }
+                    }
+                })
+
+                val id = call.parameters["id"]!!.toInt()
+                controller.deleteArticle(id)
+
             }
         }
     }.start(wait = true)
