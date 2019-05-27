@@ -9,7 +9,7 @@
 </#macro>
 
 <#macro page_comment>
-    <div style="padding-left: 30px; margin-top: 50px" class="col-md-4">
+    <div style="padding-left: 30px; margin-top: 50px; margin-left: 50px" class="col-md-4">
         <form action="/comment/add" method="post">
             <input type="hidden" name="article_id" value="${article.id}">
             <div class="form-group">
@@ -28,7 +28,7 @@
 </#macro>
 
 <#macro page_list_comment>
-    <div style="padding-left: 30px; margin-top: 50px" class="col-md-6">
+    <div style="padding-left: 30px; margin-top: 50px; margin-left: 50px" class="col-md-6">
         <#list article.comment as single>
             <div class="card" style="margin: 30px 0;">
                 <div class="card-header">

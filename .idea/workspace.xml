@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9512bc-06d6-473e-9ebe-30890edd2c25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/article.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/article.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,10 +43,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            <state relative-caret-position="-22">
+              <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+              <folding>
+                <element signature="e#197#260#0#HTML" expanded="true" />
+                <element signature="e#1080#1143#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +119,6 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/tpl/ArticleContext.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/control/CommentController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/control/CommentControllerImpl.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/article.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/base.ftl" />
         <option value="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/AppComponents.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/Model.kt" />
@@ -125,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/maxime/grec/cms/main.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/article.ftl" />
       </list>
     </option>
   </component>
@@ -280,12 +284,12 @@
       <workItem from="1558439514427" duration="904000" />
       <workItem from="1558442213055" duration="7000" />
       <workItem from="1558442411433" duration="18218000" />
-      <workItem from="1558613168318" duration="9965000" />
+      <workItem from="1558613168318" duration="10629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54574000" />
+    <option name="totallyTimeSpent" value="55238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,7 +313,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26164383" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26164383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -589,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="5" selection-start-line="5" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -629,8 +626,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        <state relative-caret-position="390">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+          <folding>
+            <element signature="e#197#260#0#HTML" expanded="true" />
+            <element signature="e#1080#1143#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
